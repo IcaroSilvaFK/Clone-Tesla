@@ -1,0 +1,21 @@
+@media screen and (max-width: 500px) {
+  header {
+    padding: 10px;
+    align-items: center;
+  }
+  header nav {
+    display: none;
+  }
+
+  header button {
+    display: flex;
+    padding: 5px 10px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #ffff;
+    border-radius: 15px;
+  }
+  .containerButtons {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

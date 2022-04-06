@@ -1,0 +1,104 @@
+body {
+  background-image: url("https://cdn.discordapp.com/attachments/958507529334300753/961047504407891968/background.jpg");
+
+  background-position: center;
+
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 10px 30px;
+  flex-wrap: wrap;
+}
+header button {
+  display: none;
+}
+header img {
+  width: 130px;
+  margin-top: 20px;
+}
+
+header nav ul {
+  display: flex;
+
+  gap: 40px;
+}
+
+header nav li {
+  padding: 5px;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+header nav ul li:hover {
+  background: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+header nav + nav {
+  margin-top: 20px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 65%;
+  margin-top: 30px;
+}
+
+main div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  line-height: 200%;
+}
+
+main div h1 {
+  font-weight: 300;
+  font-size: 45px;
+}
+
+main div p a {
+  text-decoration: underline;
+}
+
+.containerButtons {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: center;
+}
+
+.buttonBlack {
+  background-color: rgba(0, 0, 0, 0.8);
+
+  padding: 5px 50px;
+  border-radius: 20px;
+  font-size: 18px;
+
+  color: #fff;
+
+  font-weight: 400;
+}
+
+.white {
+  background-color: #ffff;
+
+  padding: 5px 50px;
+  border-radius: 20px;
+  font-size: 18px;
+
+  color: #000;
+  font-weight: 400;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
